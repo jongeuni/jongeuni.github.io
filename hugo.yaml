@@ -7,7 +7,7 @@ module:
   - path: github.com/imfing/hextra
   
 theme: hextra
-baseURL = 'https://jongeuni.github.io/'
+baseURL: 'https://jongeuni.github.io/'
 
 markup:
   # allow raw html
