@@ -3,4 +3,7 @@ title: About
 type: about
 ---
 
-This is the about page.
+**소프트웨어 마이스터고** 2023.01 졸업
+</br>
+</br>
+**마이다스인** 2022.08.01 ~ 재직중
