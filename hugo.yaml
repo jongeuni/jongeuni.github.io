@@ -1,5 +1,6 @@
 # Hugo configuration file
 title: LeeJongEun
+baseURL: 'https://jongeuni.github.io/'
 
 # import hextra as module
 module:
@@ -7,7 +8,6 @@ module:
   - path: github.com/imfing/hextra
   
 theme: hextra
-baseURL: 'https://jongeuni.github.io/'
 
 markup:
   # allow raw html
@@ -19,11 +19,30 @@ markup:
   highlight:
     noClasses: false
 
+defaultContentLanguage: ko
+languages:
+  ko:
+    languageName: 한국어
+    weight: 1
+    title: Hextra
+  en:
+    languageName: English
+    weight: 2
+    title: Hextra
+
 menu:
   main:
     - name: Docs
       pageRef: /docs
       weight: 1
+    - identifier: showcase
+      name: Showcase
+      pageRef: /showcase
+      weight: 2
+    - identifier: blog
+      name: Blog
+      pageRef: /blog
+      weight: 3
     - name: About
       pageRef: /about
       weight: 2
